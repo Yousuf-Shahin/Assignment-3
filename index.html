@@ -19,14 +19,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- css file Link -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- Tailwind Custom color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      * {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
-<body>
+<body class="max-w-screen-xl mx-auto">
 <!-- this is header section -->
-   <header class="container mx-auto">
+   <header>
     <!-- this is navbar section -->
     <nav>
         <div class="navbar bg-[#F85559] text-white my-10 rounded-full flex justify-around">
-            <div class="nav-menus list-none text-xl font-medium text-[#FFFFFF] gap-7">
+            <div class="sm:hidden md:block md:flex nav-menus list-none text-xl font-medium text-[#FFFFFF] gap-7">
                 <a href="#">
                     <li>Home</li>
                 </a>
@@ -108,8 +125,6 @@
           </div>
     </section>
    </header>
-
-
 
 
 

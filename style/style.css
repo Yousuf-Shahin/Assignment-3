@@ -1,20 +1,16 @@
-* {
-    font-family: 'Lato', sans-serif;
-    scroll-behavior: smooth;
-}
-/* this is header section */
+/* 
 
 /* this si   navbar section */
-nav  li {
+/* nav  li {
     padding: 5px;
     border-radius: 5px;
 }
 nav  li:hover {
     background-color: #3b2d2d;
-    transition: 0.5s;
-}
+    transition: 0.5s; */
+/* } */
 /* primary btn */
-.btn_primary {
+/* .btn_primary {
     background-color: #F85559;
     padding: 17px 30px;;
     font-size: 20px;
@@ -29,6 +25,6 @@ nav  li:hover {
 .hero_caption {
     width: 661px;
     text-align: center;
-    margin-top: 70px;
-    
-}
+    margin-top: 70px; */
+/*     
+} */ *
